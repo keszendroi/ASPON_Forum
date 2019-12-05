@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 26,
     "versionPublish": "4.10.5"
   },
   "pages": {
@@ -464,7 +464,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content4-3\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        About Us\n                    </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>\n                        News</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>\n                        Events</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>\n                        Resources and useful links&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#features2-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>\n                        ASPON Forum Terms of Reference&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#contacts2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit2 mbr-iconfont mbr-iconfont-btn\"></span>\n                        Contact us&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content4-3\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        About Us\n                    </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>\n                        News</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>\n                        Events</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>\n                        Resources and useful links&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#features2-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>\n                        ASPON Forum Terms of Reference&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content5-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>\n                        ASPON Forum Day 2019&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#contacts2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit2 mbr-iconfont mbr-iconfont-btn\"></span>\n                        Contact us&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rJLVn8uXZt",
           "_protectedParams": [],
           "_global": true,
@@ -575,13 +575,413 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    News</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><div><br></div><div><b>7 Nov 2019</b></div><div><br></div><div>The ASPoN Forum is a national network for British Psychology departments who are engaged with the Athena Swan Charter and committed to advancing the careers of women and addressing gender imbalances.&nbsp;</div><div><br></div><div>This will be our fourth meeting, following three successful workshops in Royal Holloway (2015), University College London (2016) and Queen’s University Belfast (2018). We are meeting at UCL again on Thursday, 7 November 2019.</div><div><br></div><div>The workshop will be held in Chandler House, 2 Wakefield Street, University College London. Attendance is free of charge and all are welcome, but advance registration is required. To register, please use the link on this page.</div><div><br></div><div>The aims of this workshop are to:</div><div><br></div><div>(i) Provide an up-to-date briefing to attendees on the Athena SWAN process by a representative from the Athena SWAN team at Advance HE, Tamara Szucs</div><div><br></div><div>(ii) Discuss relevant topics such as a) gender disparity in psychology b) career transition of women that can be used to inform the work of departmental SWAN SATs. If you would like to chair a discussion panel on a specific topic of interest, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.ukwith a suggested title and brief abstract by 21 October 2019. We will notify selected chairs by 28 October.</div><div><br></div><div>(iii) Provide a dissemination opportunity for department representatives to brief workshop attendees on any initiatives they have been conducting within their own departments. If you would like to give a 5-10 minute presentation at the workshop in which you describe some work being done within your department, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.uk.</div><div><br></div><div>Programme</div><div><br></div><div>10.05-10:15 Opening remarks</div><div><br></div><div>10:15-11:00 Ioana Latu (Queen's U. Belfast): The Psychology of Gender in Understanding Gender Equality Initiatives</div><div><br></div><div>11-11:30 coffee</div><div><br></div><div>11.30-12.30 Tamara Szucs (Athena SWAN Programme Adviser): Preparing an Athena SWAN application</div><div><br></div><div>12:30-1.15 Lunch</div><div><br></div><div>1.15-2.30 Panel discussions, Small group discussion, Q &amp; A session with Tamara Szucs</div><div><br></div><div>2.30-3.00 Feedback from panel discussions, general discussion</div><div><br></div><div>3.00-3:30 coffee</div><div><br></div><div>3:30-4.00 Short presentations from any departments about their initiatives</div><div><br></div><div>4.00-4.15 Wrap up</div><div><br></div><div><b>30th June 2016</b></div><div><br></div><div>Congratulations to all those receiving their Athena SWAN awards today</div><br><div><br></div><div><b>April 2016</b></div><div><br></div><div>Congratulations to the following departments who were successful in the recent round of Athena SWAN awards</div><div>Bronze</div><div>Bangor University School of Psychology</div><div>Birkbeck College Department of Psychological Sciences</div><div>Bronze Renewal</div><div>Sheffield Hallam Psychology Group</div><div>University of Reading School of Psychology and Clinical Language Sciences</div><div>Silver</div><div>University of Exeter Psychology</div><div>Silver Renewal</div><div>University of York Department of Psychology</div><div><br></div><br><div><b>February 2016</b></div><div><br></div><div>Workshop: see our <a href=\"index.html#content4-5\">events</a> page for more information</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    News</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><div><br></div><div><b>7 Nov 2019</b></div><div><br></div><div>The Fourth Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: UCL</div><div>Date: 7th November 2019</div><div>Time: 10-16:15</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with Eventbrite</div><div><br></div><div>The ASPoN Forum is a national network for British Psychology departments who are engaged with the Athena Swan Charter and committed to advancing the careers of women and addressing gender imbalances.&nbsp;</div><div><br></div><div>This will be our fourth meeting, following three successful workshops in Royal Holloway (2015), University College London (2016) and Queen’s University Belfast (2018). We are meeting at UCL again on Thursday, 7 November 2019.</div><div><br></div><div>The workshop will be held in Chandler House, 2 Wakefield Street, University College London. Attendance is free of charge and all are welcome, but advance registration is required. To register, please use the link on this page.</div><br><div><span style=\"font-size: 1.5rem;\">The aims of this workshop are to:</span><br></div><div><br></div><div>(i) Provide an up-to-date briefing to attendees on the Athena SWAN process by a representative from the Athena SWAN team at Advance HE, Tamara Szucs</div><div><br></div><div>(ii) Discuss relevant topics such as a) gender disparity in psychology b) career transition of women that can be used to inform the work of departmental SWAN SATs. If you would like to chair a discussion panel on a specific topic of interest, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.ukwith a suggested title and brief abstract by 21 October 2019. We will notify selected chairs by 28 October.</div><div><br></div><div>(iii) Provide a dissemination opportunity for department representatives to brief workshop attendees on any initiatives they have been conducting within their own departments. If you would like to give a 5-10 minute presentation at the workshop in which you describe some work being done within your department, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.uk.</div><div><br></div><div>Programme</div><div><br></div><div>10.05-10:15 Opening remarks</div><div><br></div><div>10:15-11:00 Ioana Latu (Queen's U. Belfast): The Psychology of Gender in Understanding Gender Equality Initiatives</div><div><br></div><div>11-11:30 coffee</div><div><br></div><div>11.30-12.30 Tamara Szucs (Athena SWAN Programme Adviser): Preparing an Athena SWAN application</div><div><br></div><div>12:30-1.15 Lunch</div><div><br></div><div>1.15-2.30 Panel discussions, Small group discussion, Q &amp; A session with Tamara Szucs</div><div><br></div><div>2.30-3.00 Feedback from panel discussions, general discussion</div><div><br></div><div>3.00-3:30 coffee</div><div><br></div><div>3:30-4.00 Short presentations from any departments about their initiatives</div><div><br></div><div>4.00-4.15 Wrap up</div><div><br></div><div><b>30th June 2016</b></div><div><br></div><div>Congratulations to all those receiving their Athena SWAN awards today</div><br><div><br></div><div><b>April 2016</b></div><div><br></div><div>Congratulations to the following departments who were successful in the recent round of Athena SWAN awards</div><div>Bronze</div><div>Bangor University School of Psychology</div><div>Birkbeck College Department of Psychological Sciences</div><div>Bronze Renewal</div><div>Sheffield Hallam Psychology Group</div><div>University of Reading School of Psychology and Clinical Language Sciences</div><div>Silver</div><div>University of Exeter Psychology</div><div>Silver Renewal</div><div>University of York Department of Psychology</div><div><br></div><br><div><b>February 2016</b></div><div><br></div><div>Workshop: see our <a href=\"index.html#content4-5\">events</a> page for more information</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rJLWtylQ6q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content4-4"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/coloured-swans-1135x560.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">4th Meeting of ASPON Forum</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    7 November 2019, University College London</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMFRBawgN",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content3",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p>We held our fourth ASPON Forum meeting on 7 November 2019 at University College London.&nbsp;<span style=\"font-size: 1.5rem;\">The workshop took place at Chandler House, 2 Wakefield Street, University College London from 10am to 4pm.&nbsp;</span></p><p><br></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p>The aims of this workshop were to&nbsp;<span style=\"font-size: 1rem;\">(i) Provide an up-to-date briefing to attendees on the Athena SWAN process by a representative from the Athena SWAN team at Advance HE, Tamara Szucs;&nbsp;</span><span style=\"font-size: 1rem;\">(ii) Discuss relevant topics such as a) gender disparity in psychology b) career transition of women that can be used to inform the work of departmental SWAN SATs;&nbsp;</span><span style=\"font-size: 1rem;\">(iii) Provide a dissemination opportunity for department representatives to brief workshop attendees on any initiatives they have been conducting within their own departments.&nbsp;</span></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr52uls3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content3-e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            "& when not (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "left"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">About 25 psychology SWAN coordinators attended the workshop from all over the country.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/aspon-forum-7-nov-2019-audience-436x327.png\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr6wH0gz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content7-g"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"105\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/aspon-forum-7-nov-2019-ioana-latu-presentation-436x584.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">Our day started with an excellent research presentation on the science of gender bias by <b>Dr Iana Natu (Queen's University Belfast)</b><span style=\"font-weight: bold;\">&nbsp;</span>entitled&nbsp;The Psychology of Gender in Understanding Gender Equality Initiatives<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr5XvvIR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            "& when not (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">An extremely useful presentation and Q&amp;A session followed, by <b>Tamara Szucs, Athena SWAN Programme Adviser</b>: <a href=\"assets/files/Applying for Athena SWAN - UCL 07-11-19 - Tamara Szucs (AHE).pdf\" target=\"_blank\">ATHENA Swan: Preparing a (successful) application</a> <br><br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/aspon-forum-7-nov-2019-tamara-szucs-presentation-436x584.png\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr7En0T5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content7-i"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"145\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/aspon-forum-7-nov-2019-discussion-436x581.jpeg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">We ended our day with a discussion about mentoring through the different career stages, led by <b>Dan Mirman, (Edinburgh)</b>. Participants had ample opportunity to share best practices on this and related issues.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr74pHlW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e4d295\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p> <b>Feedback from our attendees</b></p><p>66% of the attendees filled in a feedback form </p><p>100% of them agreed or strongly agreed that they found the 2019 ASPON Day useful</p><p>93% agreed or strongly agreed that the topics discussed were relevant</p><p>86% agreed or strongly agreed that the talk on the science of gender bias was interesting</p><p>100% agreed or strongly agreed that the presentation by the ATHENA SWAN representative was useful</p><p>100% agreed or strongly agreed that the small group discussion/ Q&amp;A session was useful</p><p>and 100% felt that they had enough opportunity to discuss equality-related issues informally among ourselves</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMr9dRnA0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-j"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"91\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"19\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>'Good to hear initiatives/ ideas from other departments'<div><br></div><div>'Useful to have a network from my discipline to discuss Ahena SWAN with and I value the website and distribution list as resources I can use so any further development regarding that would be wonderful.'</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMB6HXWIO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e4d295\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>'All truly excellent - very, very helpful'&nbsp;<div>'AMAZING'</div><div>'I really enjoyed the day &amp; found it very informative' &nbsp;</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rJMB6h6dtP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-k"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"98\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"19\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>'Great to meet fellow psychologists and great as networking opportunity. Very useul application tips. It was a little frustrating that certain aspects or examples from the AS application couldn't be talked about but the peer support made up for this.'<div><br></div><div>'The talks in the morning were amazing. Because the workshop was long it may be beneficial to have a third speaker in the afternoon. The Q&amp;A was useful but long and sometimes the discussion was more nuanced than needed.'</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "rJMBN2yN5P",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-n"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e4d295\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>'I found the Q&amp;A session particularly useful. The Q&amp;A helped elucidate several questions; the opinion of academics from the other universities; Thank you for the wonderful event!'<div><br></div><div>'Extremely useful &amp; informative day. Lots of food for thought?'</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rJMB7fNjbm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-m"
         },
         {
           "alias": false,
@@ -595,7 +995,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Events</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>ASPoN Event 2019-2020</b><div><br></div><div>The Fourth Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: UCL</div><div>Date: 7th November 2019</div><div>Time: 10-16:15</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.co.uk/e/aspon-forum-fourth-workshop-tickets-75166754787\" target=\"_blank\">Eventbrite</a></div><div><br></div><br><br><div><b>ASPoN Event 2017-2018</b></div><div><br></div><div>The Third Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: Queen's University Belfast</div><div>Date: 13th February 2018</div><div>Time: 11-16:45</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.co.uk/e/aspon-third-workshop-tickets-41304459751?utm_term=eventname_text\" target=\"_blank\">Eventbrite</a></div><div><br></div><br><div><b>ASPoN Event 2016-2017</b></div><div><br></div><div>The Second Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: Bedford Way, UCL</div><div>Date: 13th February 2017</div><div>Time: 9:45-16:45</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.com/e/athena-swan-workshop-for-psychology-2017-tickets-29894284610\" target=\"_blank\">Eventbrite</a></div><div><br></div><br><div><b>Birbeck Gender Events 2016-2017</b></div><div><br></div><div>Autumn Term 2016</div><div><br></div><div>Mid Career Academic Women: Choices, Strategies, Opportunities (BBG)</div><div><br></div><div>Kelly Coate &amp; Camille Kandiko Howson</div><div>Date: 13 September</div><div>Time: 1pm-2pm</div><div>Venue: Birbeck MAL 402</div><div>Ada Lovelace Day (George Roussos)</div><div><br></div><div>Wiki-Edithon</div><div>Date: October</div><div>Time: TBC</div><div>Location: TBC</div><div>Black History Month</div><div><br></div><div>James Adeleke, Generation Success (Ammara Khan/Jeanne LR/V Meschitti)</div><div>Joint Council Welfare Immigration, Saira Grant</div><div>Chaka Umunna MP</div><div>Equality in Psychological Sciences (EquiPS) Lecture</div><div><br></div><div>Professor Dorothy Bishop (Oxford)</div><div>Date: 8 November 2016</div><div>Time: TBC</div><div>Location: TBC</div><div>Established Professor Network (Trigger)</div><div><br></div><div>Date: 3 November 2016</div><div>Time: 6 pm</div><div>Location: TBC</div><div>STEM Networking Event (Trigger)</div><div><br></div><div>Date: 4 November 2016</div><div>Time: 2pm</div><div>Location: TBC</div><div><br></div><br><div><b>ASPON Event 2015-2016</b></div><div><br></div><div>The first&nbsp;Athena SWAN Workshop for Psychology</div><div><br></div><div>Venue: Windsor Building, Room 003, Royal Holloway, University of London</div><div>Date: 15th February 2016</div><div>Time: 1pm - 6.30pm.</div><div>Open to Athena SWAN team members from Psychology Departments around the UK</div><div><a href=\"https://www.eventbrite.com/e/athena-swan-workshop-for-psychology-2017-tickets-29894284610\">More information.</a></div><div><br></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Events</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>ASPoN Event 2019-2020</b><div><br></div><div>The Fourth Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: UCL</div><div>Date: 7th November 2019</div><div>Time: 10-16:15</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.co.uk/e/aspon-forum-fourth-workshop-tickets-75166754787\" target=\"_blank\">Eventbrite</a></div><div><br></div>The ASPoN Forum is a national network for British Psychology departments who are engaged with the Athena Swan Charter and committed to advancing the careers of women and addressing gender imbalances.&nbsp;<div><br></div><div>This will be our fourth meeting, following three successful workshops in Royal Holloway (2015), University College London (2016) and Queen’s University Belfast (2018). We are meeting at UCL again on Thursday, 7 November 2019.</div><div><br></div><div>The workshop will be held in Chandler House, 2 Wakefield Street, University College London. Attendance is free of charge and all are welcome, but advance registration is required. To register, please use the link on this page.</div><div><br></div><div>The aims of this workshop are to:</div><div><br></div><div>(i) Provide an up-to-date briefing to attendees on the Athena SWAN process by a representative from the Athena SWAN team at Advance HE, Tamara Szucs</div><div><br></div><div>(ii) Discuss relevant topics such as a) gender disparity in psychology b) career transition of women that can be used to inform the work of departmental SWAN SATs. If you would like to chair a discussion panel on a specific topic of interest, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.ukwith a suggested title and brief abstract by 21 October 2019. We will notify selected chairs by 28 October.</div><div><br></div><div>(iii) Provide a dissemination opportunity for department representatives to brief workshop attendees on any initiatives they have been conducting within their own departments. If you would like to give a 5-10 minute presentation at the workshop in which you describe some work being done within your department, please contact Kriszta E. Szendroi k.szendroi@ucl.ac.uk.</div><div><br></div><div>Programme</div><div><br></div><div>10.05-10:15 Opening remarks</div><div><br></div><div>10:15-11:00 Ioana Latu (Queen's U. Belfast): The Psychology of Gender in Understanding Gender Equality Initiatives</div><div><br></div><div>11-11:30 coffee</div><div><br></div><div>11.30-12.30 Tamara Szucs (Athena SWAN Programme Adviser): Preparing an Athena SWAN application</div><div><br></div><div>12:30-1.15 Lunch</div><div><br></div><div>1.15-2.30 Panel discussions, Small group discussion, Q &amp; A session with Tamara Szucs</div><div><br></div><div>2.30-3.00 Feedback from panel discussions, general discussion</div><div><br></div><div>3.00-3:30 coffee</div><div><br></div><div>3:30-4.00 Short presentations from any departments about their initiatives</div><div><br></div><div>4.00-4.15 Wrap up</div><div><br><br><div><b>ASPoN Event 2017-2018</b></div><div><br></div><div>The Third Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: Queen's University Belfast</div><div>Date: 13th February 2018</div><div>Time: 11-16:45</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.co.uk/e/aspon-third-workshop-tickets-41304459751?utm_term=eventname_text\" target=\"_blank\">Eventbrite</a></div><div><br></div><br><div><b>ASPoN Event 2016-2017</b></div><div><br></div><div>The Second Athena SWAN workshop for Psychology</div><div><br></div><div>Venue: Bedford Way, UCL</div><div>Date: 13th February 2017</div><div>Time: 9:45-16:45</div><div>Open to Athena SWAN team members from Psychology</div><div>More Information and Sign-up with <a href=\"https://www.eventbrite.com/e/athena-swan-workshop-for-psychology-2017-tickets-29894284610\" target=\"_blank\">Eventbrite</a></div><div><br></div><br><div><b>Birbeck Gender Events 2016-2017</b></div><div><br></div><div>Autumn Term 2016</div><div><br></div><div>Mid Career Academic Women: Choices, Strategies, Opportunities (BBG)</div><div><br></div><div>Kelly Coate &amp; Camille Kandiko Howson</div><div>Date: 13 September</div><div>Time: 1pm-2pm</div><div>Venue: Birbeck MAL 402</div><div>Ada Lovelace Day (George Roussos)</div><div><br></div><div>Wiki-Edithon</div><div>Date: October</div><div>Time: TBC</div><div>Location: TBC</div><div>Black History Month</div><div><br></div><div>James Adeleke, Generation Success (Ammara Khan/Jeanne LR/V Meschitti)</div><div>Joint Council Welfare Immigration, Saira Grant</div><div>Chaka Umunna MP</div><div>Equality in Psychological Sciences (EquiPS) Lecture</div><div><br></div><div>Professor Dorothy Bishop (Oxford)</div><div>Date: 8 November 2016</div><div>Time: TBC</div><div>Location: TBC</div><div>Established Professor Network (Trigger)</div><div><br></div><div>Date: 3 November 2016</div><div>Time: 6 pm</div><div>Location: TBC</div><div>STEM Networking Event (Trigger)</div><div><br></div><div>Date: 4 November 2016</div><div>Time: 2pm</div><div>Location: TBC</div><div><br></div><br><div><b>ASPON Event 2015-2016</b></div><div><br></div><div>The first&nbsp;Athena SWAN Workshop for Psychology</div><div><br></div><div>Venue: Windsor Building, Room 003, Royal Holloway, University of London</div><div>Date: 15th February 2016</div><div>Time: 1pm - 6.30pm.</div><div>Open to Athena SWAN team members from Psychology Departments around the UK</div><div><a href=\"https://www.eventbrite.com/e/athena-swan-workshop-for-psychology-2017-tickets-29894284610\">More information.</a></div><div><br></div></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rJLXoO2AJT",
           "_protectedParams": [],
           "_global": false,
